@@ -1,0 +1,177 @@
+body {
+    font-family: serif;
+}
+
+.box2 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.box-text {
+    margin: 300px auto;
+    width: 40%;
+}
+
+.box-text button {
+    margin-left: 150px;
+}
+
+.box3 {
+    width: 80%;
+    margin: auto;
+}
+
+.box3 img {
+    width: 80%;
+    height: auto;
+    margin: 30px;
+    border: 5px solid white;
+    max-width: 100%;
+}
+
+.box3 p {
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
+
+.sect {
+    height: auto;
+    margin: 0px;
+    display: block;
+}
+
+.area {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 140px;
+}
+
+.new {
+    height: auto;
+}
+
+.news {
+    width: 100%;
+    height: 200px;
+    background-size: 100% 100%;
+    background-position: center center;
+    border: 5px solid tan;
+    margin: 10px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.news:hover {
+    background-size: 170% 170%;
+}
+
+.news-item {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 1s;
+    overflow: hidden;
+    position: relative;
+}
+
+.news-item:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.news-item h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: transparent;
+    text-align: center;
+    display: hidden;
+    transition: 1s;
+}
+
+.news-item p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: transparent;
+    text-align: center;
+    display: hidden;
+    transition: 1s;
+}
+
+.news:hover .news-item h2 {
+    color: white;
+    bottom: 85px;
+}
+
+.news:hover .news-item p {
+    color: white;
+    bottom: 35px;
+    width: 80%;
+    margin: auto;
+}
+
+.news-item button {
+    position: absolute;
+    width: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: transparent;
+    text-align: center;
+    display: hidden;
+    transition: 1s;
+    border: transparent;
+}
+
+.news:hover .news-item button {
+    bottom: 2px;
+    width: 20%;
+    margin: auto;
+    color: white;
+    background-color: mediumturquoise;
+}
+
+.footer-top {
+    background-color: #222222;
+}
+
+.foot a {
+    display: block;
+    text-align: center;
+}
+
+.foot p {
+    color: white;
+    text-align: justify;
+    /* padding: 10px; */
+}
+
+.footer-bottom {}
+
+.footer-bottom p {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* 
+.bcolor {
+    background-color: #0DCAF0;
+} */
